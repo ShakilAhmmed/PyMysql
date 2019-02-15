@@ -1,8 +1,8 @@
 # pip3 install mysql-connector
 
-import mysql.connector as connection
+import mysql.connector
 
-db = connection.connect(
+db = mysql.connector.connect(
     host="localhost",
     user="root",
     password="",
